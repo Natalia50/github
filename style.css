@@ -32,15 +32,15 @@ margin-left: 40px;
     z-index: 1;
 }
 .layer1{
-background-color:#336699;
-width:300px;
+    background-color:#336699;
+    width:300px;
     height: 150px;
     z-index: 4;
     position:relative;
 }
 .layer2{
-   background-color:fuchsia;
-width:300px;
+    background-color:fuchsia;
+    width:300px;
     height: 60px;
     position: absolute;
     top: 30%;
@@ -49,10 +49,56 @@ width:300px;
     opacity: 0.7;
 }
 .layer3{
-   background-color:green;
-   width:350px;
+    background-color:green;
+    width:350px;
     height: 80px;
     position: absolute;
     top: 20%;
     left: 5%;
     z-index: 3;}
+
+
+
+
+
+.block1{
+    width: 600px;
+    height: 150px;
+    background: rgba(255, 0, 0, 0.7);
+}
+
+
+.color{
+    margin-top: 60px;
+    width: 600px;
+    height: 150px;
+    background-color: rgba(0, 0, 160, 0.9);
+}
+
+.color:hover{
+   background-color: rgba(0, 0, 160, 0.3);   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
