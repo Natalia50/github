@@ -17,3 +17,42 @@ background:#33FFFF;
 padding-left:20px;
 margin:50px;
 }
+
+
+.lemon {
+width: 200px; height: 200px;
+background: #F5F240;
+border: 1px solid #F0D900;
+border-radius: 10px 150px 30px 150px;
+margin-left: 40px;
+}
+
+.t{
+    position: relative;
+    z-index: 1;
+}
+.layer1{
+background-color:#336699;
+width:300px;
+    height: 150px;
+    z-index: 4;
+    position:relative;
+}
+.layer2{
+   background-color:fuchsia;
+width:300px;
+    height: 60px;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    z-index: 5;
+    opacity: 0.7;
+}
+.layer3{
+   background-color:green;
+   width:350px;
+    height: 80px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    z-index: 3;}
